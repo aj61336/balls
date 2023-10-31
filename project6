@@ -1,0 +1,10 @@
+with open("student roster example.csv") as rosterFile:
+    linees=rosterFile.readLines()
+
+
+programCodeArray=[]
+
+dataArray=lines[0].split()
+print(dataArray)
+programCodeArray.append(dataArray[5])
+print(programCodeArray)
