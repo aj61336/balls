@@ -10,3 +10,7 @@ def main():
     print(dataArray)
     programCodeArray.append(dataArray[5])
     print(programCodeArray)
+
+def processStudentFile ():
+    print("Processing student input file...")
+    
