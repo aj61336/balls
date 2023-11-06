@@ -1,7 +1,6 @@
-def main():
     # opens and reads file
     with open("student roster example.csv") as rosterFile:
-        linees=rosterFile.readLines()
+        lines=rosterFile.readLines()
     
     # list for the program
     programCodeArray=[]
@@ -13,4 +12,6 @@ def main():
 
 def processStudentFile ():
     print("Processing student input file...")
-    
+
+
+def main():
